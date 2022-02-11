@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./company/Javascript.js"></script>
+    <title>MY PORTFOLIO</title>
+  </head>
+  <main class="main">
+    <header class="header">
+        <div class="wrap d-flex">
+            <h1 class="logo">
+            </h1>
+            <nav class="menu">
+                <ul>
+                    <li><a class="cta3" class="smooth-scroll" href="#section-recentprojects">Achievements</a></li>
+                    <li><a class="cta3" class="smooth-scroll" href="#section-skills">Skills</a></li>
+                    <li><a class="cta3" class="smooth-scroll" href="#section-aboutme">About Me</a></li>
+                    <li><a class="cta3" class="smooth-scroll" href="#section-contactinfo">Contact info</a></li>
+                    <li><a class="cta3" href="mailto:hackprogram172@gmail.com">Email Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button type="button" class="sidemenu-toggler" onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+          
+          <div class="sidemenu">          
+            <nav id="sidebar">
+                <ul>
+                    <a class="close-navibar-button" href="#">
+                      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      <img src="http://uploads.webflow.com/531100e44d617f685600032c/531576491255279f6f0001ca_Icon-cross.png" class="closeButton">
+                    </a>
+                    <ol><a href="#">Home</a></ol>
+                    <br>
+                    <br>
+                    <ol><a href="#section-recentprojects">Achievements</a></ol>
+                    <br>
+                    <br>
+                    <ol><a href="#section-aboutme">About</a></ol>
+                    <br>
+                    <br>
+                    <ol><a href="#section-skills">Skills</a></ol>
+                    <br>
+                    <br>
+                    <ol><a href="#">Gallery</a></ol>
+                    <br>
+                    <br>
+                    <ol><a href="#section-contactinfo">Contact</a></ol>
+                    <br>
+                    <br>
+                </ul>
+            </nav>
+            <footer>
+                <div class="social">
+                    <a href="#section-contactinfo"><img src="./img/image/instagram.png" alt=""></a>
+                    <a href="#section-contactinfo"><img src="./img/image/facebook.png" alt=""></a>
+                    <a href="#section-contactinfo"><img src="./img/image/twitter.png" alt=""></a>
+                </div>
+                <p6>2022, Created by Ryohya</p6>
+            </footer>
+          </div>
+        </button>
+    </header>
+</main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Name is <span></span></h1>
+          <h1>Ryohya <span></span></h1>
+          <h1>Satake. <span></span></h1>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Project Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 id="section-recentprojects" class="section-title2">
+            <span>Recent Achievements</span>
+          </h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Introduction</h1>
+              <h2>
+                <span>
+                  <a href="company/about.html" target="_blank" class="cta2"
+                    >Learning How To Code</a
+                  >
+                </span>
+              </h2>
+              <p>
+                Taking help of many videos and tutorials, I learned the basics
+                of how to code and make my own website. I learned python first,
+                then HTML, CSS and finally Javascript.
+              </p>
+            </div>
+            <div class="Project-img">
+              <img src="./img/coding1.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 1</h1>
+              <h2>
+                <span>
+                  <a href="company/about2.html" target="_blank" class="cta2"
+                    >My First Website, My Portfolio</a
+                  >
+                </span>
+              </h2>
+              <p>
+                This was my first website which I coded. Taking practice
+                from recent videos, I coded a website explaining about myself.
+              </p>
+            </div>
+            <div class="Project-img">
+              <img src="./img/portfolio.jpeg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="skills container">
+        <h1 id="section-skills" class="section-title2">
+          <span>Skills</span>
+        </h1>
+        <br>
+        <br>
+        <div class="myskills">
+          <h2><span>HTML</span></h2>
+          <br>
+          <br>
+          <h2><span>CSS</span></h2>
+          <br>
+          <br>
+          <h2><span>JavaScript</span></h2>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img class="image" src="./img/myprofile.png" alt="img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 id="section-aboutme" class="section-title2">
+            <span>About me</span>
+          </h1>
+          <h2><span>Front End Developer</span></h2>
+          <p>
+            <span>
+              Front-end development is the practice of producing HTML, CSS and
+              JavaScript for a website or Web Application so that a user can see
+              and interact with them directly. The challenge associated with
+              front end development is that the tools and techniques used to
+              create the front end of a website change constantly and so the
+              developer needs to constantly be aware of how the field is
+              developing.
+            </span>
+          </p>
+          <br>
+          <br>      
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact conatiner">
+        <div>
+          <h1 id="section-contactinfo" class="section-title2">
+            <span>Contact Info</span>
+          </h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1><span>Email</span></h1>
+              <h2><span>hackprogram172@gmail.com</span></h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1><span>Address</span></h1>
+              <h2><span>Tokyo, Japan</span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <a class="smooth-scroll" href="#">Jump To Top</a>
+    <br>
+    <br>
+  </body>
+</html>
